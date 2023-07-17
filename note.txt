@@ -1,0 +1,4 @@
+CDN
+crossorigin in script tag
+React.createElement -> returns js object
+root.render -> converts the object and render the tag in html
