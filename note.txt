@@ -45,3 +45,13 @@
 # React Fragment 
     -One parent of JSX as we cann't use as JSX can have one parent.Then we use React.Fragment and put over code inside this. 
     -We can also use <> </> in place of React.Fragment
+#props(passing props to a components) -> props are normal arguments to function
+# When ever we loop over the data then we should use 'key' key to make element unique. Never use index as keys bad practice(It is mention on React Official Site).
+# name export vs default export =>
+    export const Test => Name Export
+    import {Test} from path
+
+    const Test = [{},{}] // () => {}
+    import Test from path
+
+    -We use name export when we have to export multiple kets
