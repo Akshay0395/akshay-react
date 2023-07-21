@@ -8,7 +8,7 @@ export const resData = [
   {
     resName: "KFC",
     cuision: ["Burger", "Chicken"],
-    rating: "4.2",
+    rating: "3.8",
     deleveryTime: "15",
   },
   {

@@ -51,7 +51,33 @@
     export const Test => Name Export
     import {Test} from path
 
-    const Test = [{},{}] // () => {}
+    const Test = [{},{}] // () => {} => default export
+    export default Test
     import Test from path
 
-    -We use name export when we have to export multiple kets
+    -We use name export when we have to export multiple keys
+
+#React Hooks
+    -Is a normal JS function that is given to us by React.
+    - Two important hooks
+        - useState() => 
+            - Superpowerful state variable in React
+            - maintain the state
+            - When ever a state variable updates/changes React will re-render the component 
+        - useEffect()
+
+#React Uses 
+    -Reconciliation Algorithim(React Fiber)
+        When ever something changes on UI is known as Reconciliation Algo.
+        (https://github.com/acdlite/react-fiber-architecture)
+        -Virtual DOM 
+            - VD is a representation of a actual DOM
+            - VD is an or return Object(ReactElement)
+    
+        -Diff(difference) Algorithims
+            -Tries to findout the difference between old and new virtual dom and update the actual DOM
+            -Find difference between two object
+
+    
+# Why React is Fast
+    - Becasue it has VD and uses Diff Algorithim

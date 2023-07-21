@@ -5,7 +5,7 @@ const ResturantCard = (props) => {
   //Destructuring(JS concept)
   // const ResturantCard = ({ resName, cuision }) => {
 
-  const { resName, cuision, deleveryTime, rating } = props.resData;
+  const { resName, cuision, deleveryTime, rating } = props.resData; //Destructuring(JS concept)
 
   return (
     // <div className="res-card" style={styleCard}>
